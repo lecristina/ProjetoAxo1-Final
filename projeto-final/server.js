@@ -32,3 +32,4 @@ const server = http.createServer((req, res) => {
 // a função callback dentro da (server.listen()) sera executada avisando que pode receber requisições
 server.listen(3000, () => {
   console.log('Servidor rodando em <http://localhost:3000/>');
+});
